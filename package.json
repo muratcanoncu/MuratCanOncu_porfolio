@@ -1,0 +1,16 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include -path scss style.scss style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "Murat Can Öncü",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
