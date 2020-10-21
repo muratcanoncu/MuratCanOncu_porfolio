@@ -128,6 +128,9 @@ nav {
     align-items: center;
     flex-direction: column;
     padding-top: 5%;
+
+
+    
     h5 {
         color: $mainred;
         text-transform: uppercase;
@@ -216,6 +219,16 @@ nav {
         }
     
     }
+    @media screen and (max-width:600px) {
+            h1 {
+             font-size: 2rem;
+             width: 400px;
+            }
+            p{
+                width: 390px;
+            }
+    }
+
 }
 
 /* Explanation */
@@ -255,14 +268,20 @@ nav {
                     font-size: 2.5rem;
                     color: black;
                 }
+                @media screen and (max-width:500px) {
+                    a {
+                        font-size: 2.1rem;
+                    }
+                }
                 i {
                     font-size: 2.5rem;
                     color: black;
                     margin-left: 40px;
                 }
                 }
+                
         }
-    
+        
 }
 /* Services */
 .header {
@@ -341,6 +360,12 @@ nav {
     background-size: cover;
     background-position: center center;
     box-shadow: 3px 4px 5px gray;
+
+    @media screen and (max-width:500px){
+        .contact-fluid {
+            height: auto;
+        }
+    }
     .container-narrow {
         height: 100%;
         
